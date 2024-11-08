@@ -1,0 +1,91 @@
+.hero-section {
+    background-color: #f9f9f9;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 40px auto;
+    text-align: center;
+  }
+  
+  .hero-content h1 {
+    font-size: 3em;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .hero-content p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .booking-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .date-picker,
+  .room-counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .date-picker label,
+  .room-counter label {
+    font-size: 1.1em;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .date-picker input {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+  }
+  
+  .room-counter .counter-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .room-counter button {
+    padding: 5px 10px;
+    font-size: 1.5em;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .room-counter button:hover {
+    background-color: #45a049;
+  }
+  
+  .room-counter span {
+    font-size: 1.2em;
+    min-width: 30px;
+    text-align: center;
+  }
+  
+  .book-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .book-button:hover {
+    background-color: #45a049;
+  }
+  

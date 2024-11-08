@@ -1,0 +1,48 @@
+.order-form-section {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .order-form-section h2 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .order-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .order-form label {
+    font-size: 1.1em;
+    color: #333;
+  }
+  
+  .order-form input {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .order-form button {
+    padding: 10px;
+    font-size: 1.2em;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .order-form button:hover {
+    background-color: #45a049;
+  }
+  
